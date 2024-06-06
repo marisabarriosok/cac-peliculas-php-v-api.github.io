@@ -14,7 +14,14 @@
         .error{color:red;}
     </style>
     
-    <body>
+    <body class="bodyRegistrarse">
+        <header class="headerRegistrarse">
+            <a class="anclaLogo" href="../index.html">
+                <i class="fas fa-film" aria-hidden="true"></i>
+                <span>CAC-Movies</span>
+            </a>
+        </header>
+
         <h2>Formulario con validaciones</h2>
 
         <form id="miFormulario">
@@ -62,5 +69,9 @@
                 alert("EL formulario se envio con exito");
             });
         </script>
+         <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+         <script>
+         AOS.init();
+         </script>
     </body>
 </html>

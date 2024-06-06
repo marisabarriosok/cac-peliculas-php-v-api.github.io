@@ -22,15 +22,14 @@
       <section  data-aos="zoom-in"  data-aos-duration="1000" class="seccionRegistrarse">
         <form  action="" method="post">
             <h2 class="tituloRegistrarse">Iniciar Sesión</h2>
-         
             <div>
                 <input type="email" placeholder="Email" required id="email" name="email">
             </div>
-            <div>
-                <input type="password" placeholder="Contraseña" required id="password" name="password">
+             <div>
+                <label for="nombre">Nombre:</label>
+                <input id="nombre"  placeholder="nombre"         name="nombre" type="text"  required id="nombre">
+                <span id="nombreError" class="error" ></span>
             </div>
-          
-          
             <div>
                 <input  class="boton" type="submit" value="Iniciar Sesión">
             </div>
@@ -39,6 +38,11 @@
                
                 <a id="ayuda" class="ayuda" href="registrarse.html">Registrarse</a>
             </div>
+            <div>
+                <button> <a class="botonValidacion" href="./validacion.html">Validación</a></button>
+                <a class="botonValidacion" href="./validacion.html"></a>
+            </div>
+           
         </form>
       </section>
 
